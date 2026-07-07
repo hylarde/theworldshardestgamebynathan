@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class obstaclemove : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform pontoA;
+    public Transform pontoB;
+    public float speed;
+
     void Start()
     {
         
