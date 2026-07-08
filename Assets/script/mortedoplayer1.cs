@@ -10,6 +10,7 @@ public class mortedoplayer1 : MonoBehaviour
         if (other.CompareTag("inimigo"))
         {
             Die();
+            GameManager.Instance.PlayerMorreu();
         }
     }
     void Die()
